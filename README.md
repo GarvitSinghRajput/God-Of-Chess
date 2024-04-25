@@ -1,0 +1,1 @@
+3D Chess game with different types of Chess piece models based on different Mythologies the Persian, Greek, Macedonian, Viking and many more, each Chess Piece and character have multiple unique animation for movement, attack, idle and death events. 
