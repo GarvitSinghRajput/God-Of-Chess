@@ -1,0 +1,528 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4948139411028468501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8251668577000910547}
+  - component: {fileID: 3461529439828201356}
+  m_Layer: 0
+  m_Name: Berserker_battle_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8251668577000910547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4948139411028468501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7055495472496443152}
+  - {fileID: 836936406752970309}
+  - {fileID: 8716899740907567691}
+  - {fileID: 4012544177844386159}
+  - {fileID: 2345135017903836349}
+  - {fileID: 6972700504673517510}
+  - {fileID: 9083531468746579964}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &3461529439828201356
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4948139411028468501}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+  m_Controller: {fileID: 9100000, guid: c38623e2136377248b234e4c63dfc38f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &836936406753107141
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8251668577000910547}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_Name
+      value: Berserker-battlehead01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c38623e2136377248b234e4c63dfc38f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 54fce5f92a4d4a346aa72caee767a7ca, type: 3}
+--- !u!4 &836936406752970309 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 54fce5f92a4d4a346aa72caee767a7ca,
+    type: 3}
+  m_PrefabInstance: {fileID: 836936406753107141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2345135017903707709
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8251668577000910547}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_Name
+      value: Berserker-battlerighthandweapon01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c38623e2136377248b234e4c63dfc38f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32, type: 3}
+--- !u!4 &2345135017903836349 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 1fb568ba0e673dc49b9fb584dfc3ba32,
+    type: 3}
+  m_PrefabInstance: {fileID: 2345135017903707709}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4012544177844773871
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8251668577000910547}
+    m_Modifications:
+    - target: {fileID: 100000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_Name
+      value: Berserker-battlelower01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c38623e2136377248b234e4c63dfc38f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd3a2bde25945784faab0bd57e3651a9, type: 3}
+--- !u!4 &4012544177844386159 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: bd3a2bde25945784faab0bd57e3651a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 4012544177844773871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6972700504673903942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8251668577000910547}
+    m_Modifications:
+    - target: {fileID: 100000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_Name
+      value: Berserker-battleshoulder01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c38623e2136377248b234e4c63dfc38f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3c9cef6b95f44c468af4e2376c02cb3, type: 3}
+--- !u!4 &6972700504673517510 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: f3c9cef6b95f44c468af4e2376c02cb3,
+    type: 3}
+  m_PrefabInstance: {fileID: 6972700504673903942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7055495472496043408
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8251668577000910547}
+    m_Modifications:
+    - target: {fileID: 100000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_Name
+      value: Berserker-battlearm01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c38623e2136377248b234e4c63dfc38f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eaa0530b0f91f854393470d72fe72951, type: 3}
+--- !u!4 &7055495472496443152 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: eaa0530b0f91f854393470d72fe72951,
+    type: 3}
+  m_PrefabInstance: {fileID: 7055495472496043408}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8716899740907430091
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8251668577000910547}
+    m_Modifications:
+    - target: {fileID: 100000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_Name
+      value: Berserker-battleleg01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c38623e2136377248b234e4c63dfc38f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: def29f526bf46fa498d2506ce49c7254, type: 3}
+--- !u!4 &8716899740907567691 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: def29f526bf46fa498d2506ce49c7254,
+    type: 3}
+  m_PrefabInstance: {fileID: 8716899740907430091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9083531468746966396
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8251668577000910547}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_Name
+      value: Berserker-battleupper01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c38623e2136377248b234e4c63dfc38f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e9aa68ff123adf45ae9dab753e3340a, type: 3}
+--- !u!4 &9083531468746579964 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 9e9aa68ff123adf45ae9dab753e3340a,
+    type: 3}
+  m_PrefabInstance: {fileID: 9083531468746966396}
+  m_PrefabAsset: {fileID: 0}
